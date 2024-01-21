@@ -2,7 +2,7 @@ let questions = [
     {
       question: "Which is the largest mammal in world?",
       answers: [
-        { text: "shark", correct: "false" },
+        { text: "Bear", correct: "false" },
         { text: "Blue Whale", correct: "true" },
         { text: "Elephant", correct: "false" },
         { text: "Giraffe", correct: "false" },
@@ -11,8 +11,8 @@ let questions = [
     {
       question: "Which is the national animal of India?",
       answers: [
-        { text: "shark", correct: "false" },
-        { text: "Blue Whale", correct: "false" },
+        { text: "Rhinoceros", correct: "false" },
+        { text: "Lion", correct: "false" },
         { text: "Tiger", correct: "true" },
         { text: "Giraffe", correct: "false" },
       ],
@@ -21,17 +21,17 @@ let questions = [
       question: "Which is the national bird of India?",
       answers: [
         { text: "Peacock", correct: "true" },
-        { text: "Blue Whale", correct: "false" },
-        { text: "Elephant", correct: "false" },
-        { text: "Giraffe", correct: "false" },
+        { text: "Parrot", correct: "false" },
+        { text: "Humming Bird", correct: "false" },
+        { text: "Woodpecker", correct: "false" },
       ],
     },
     {
       question: "Which is the national flower of India?",
       answers: [
-        { text: "shark", correct: "false" },
-        { text: "Blue Whale", correct: "false" },
-        { text: "Elephant", correct: "false" },
+        { text: "Daffodils", correct: "false" },
+        { text: "Sunflower", correct: "false" },
+        { text: "Lily", correct: "false" },
         { text: "Lotus", correct: "true" },
       ],
     },
@@ -56,19 +56,19 @@ let questions = [
     {
       question: "When is our Independence Day celebrated?",
       answers: [
-        { text: "13 August", correct: "false" },
-        { text: "14 August", correct: "false" },
-        { text: "15 August", correct: "true" },
-        { text: "16 August", correct: "false" },
+        { text: "13th August", correct: "false" },
+        { text: "14th August", correct: "false" },
+        { text: "15th August", correct: "true" },
+        { text: "16th August", correct: "false" },
       ],
     },
     {
       question: "When is our Republic Day celebrated?",
       answers: [
-        { text: "22 January", correct: "false" },
-        { text: "26 January", correct: "true" },
-        { text: "27 January", correct: "false" },
-        { text: "29 January", correct: "false" },
+        { text: "22nd January", correct: "false" },
+        { text: "26th January", correct: "true" },
+        { text: "27th January", correct: "false" },
+        { text: "29th January", correct: "false" },
       ],
     },
     {
@@ -83,10 +83,10 @@ let questions = [
     {
       question: "When our constitution was made?",
       answers: [
-        { text: "23 January 1950", correct: "false" },
-        { text: "21 November 1940", correct: "false" },
-        { text: "18 July 1989", correct: "false" },
-        { text: "26 November 1949", correct: "true" },
+        { text: "23rd January 1950", correct: "false" },
+        { text: "21st November 1940", correct: "false" },
+        { text: "18th July 1989", correct: "false" },
+        { text: "26th November 1949", correct: "true" },
       ],
     },
   ];
