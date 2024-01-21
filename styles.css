@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: azure;
+  }
+  .quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #answer-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .heading {
+    color: darkblue;
+    border-bottom: 1px solid grey;
+  }
+  .question-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    width: 300px;
+    height: 30px;
+    transition: all 0.5s ease;
+  }
+  .btn:hover:not([disabled]) {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+  }
+  .btn:disabled {
+    cursor: no-drop;
+  }
+  #nxt-btn {
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  .correct {
+    background-color: green;
+  }
+  .incorrect {
+    background-color: red;
+  }
+  .watermark {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 648px) {
+    .container {
+      margin-top: 40%;
+    }
+  }
+  
